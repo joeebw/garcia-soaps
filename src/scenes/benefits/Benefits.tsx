@@ -14,17 +14,17 @@ import ActionButtons from "@/shares/ActionButtons";
 const benefits: BenefitType[] = [
   {
     icon: <HomeModernIcon className="h-6 w-6"/>,
-    title: "Lorem ipsum, dolor sit amet consectetur.",
+    title: "This is a title 1 and a description.",
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi quos repellendus corrupti ut similique suscipit repudiandae sunt, blanditiis deserunt non aperiam recusandae doloremque?"
   },
   {
     icon: <UserGroupIcon className="h-6 w-6"/>,
-    title: "Lorem ipsum, dolor sit amet consectetur.",
+    title: "This is a title 2 and a description.",
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi quos repellendus corrupti ut similique suscipit repudiandae sunt, blanditiis deserunt non aperiam recusandae doloremque?"
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6"/>,
-    title: "Lorem ipsum, dolor sit amet consectetur.",
+    title: "This is a title 3 and a description",
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi quos repellendus corrupti ut similique suscipit repudiandae sunt, blanditiis deserunt non aperiam recusandae doloremque?"
   }
 ];

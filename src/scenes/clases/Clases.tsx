@@ -79,7 +79,7 @@ const Clases = ({setSelectedPage}:props) => {
       <div className="mt-14 w-full h-[353px] overflow-y-hidden overflow-x-scroll">
         <ul className="flex mx-8 gap-9 w-[2400px]">
           {clasesArray.map((clase) => 
-            <Clase clase={clase}/>)}
+            <Clase clase={clase} key={clase.title}/>)}
         </ul>
       </div>
     </section>
