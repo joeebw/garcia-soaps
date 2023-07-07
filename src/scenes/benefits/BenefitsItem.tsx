@@ -3,10 +3,10 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { SelectedPage } from '@/shares/types';
 import { motion } from 'framer-motion';
 
-const childVariant = {
-  hidden: {opacity: 0, scale: 0.9},
-  visible: {opacity: 1, scale: 1}
-}
+// const childVariant = {
+//   hidden: {opacity: 0, scale: 0.9},
+//   visible: {opacity: 1, scale: 1}
+// }
 
 type Props = {
   item: BenefitType,
@@ -19,7 +19,7 @@ const BenefitsItem = ({item, setSelectedPage}: Props) => {
   return (
     <motion.div 
       className='flex flex-col gap-4 border-2 rounded-md border-gray-100 px-6 py-16 text-center'
-      variants={childVariant}
+      // variants={childVariant}
     >
 
       <div className='flex justify-center'>
