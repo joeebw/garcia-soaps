@@ -18,7 +18,7 @@ const BenefitsItem = ({item, setSelectedPage}: Props) => {
 
   return (
     <motion.div 
-      className='flex flex-col gap-4 border-2 rounded-md border-gray-100 px-6 py-16 text-center'
+      className='flex flex-col items-center gap-4 border-2 rounded-md border-gray-100 px-6 py-16 text-center'
       // variants={childVariant}
     >
 
